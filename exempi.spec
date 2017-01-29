@@ -1,6 +1,6 @@
 Summary:	Library for easy parsing of XMP metadata
 Name:		exempi
-Version:	2.4.0
+Version:	2.4.1
 Release:	1%{?dist}
 License:	BSD
 Group:		System Environment/Libraries
@@ -66,6 +66,10 @@ rm -rf %{buildroot}%{_libdir}/*.a
 %{_libdir}/pkgconfig/*.pc
 
 %changelog
+* Sat Jan 28 2017 Hubert Figuière <hub@figuiere.net> 2.4.1-1
+- Update to upstream version 2.4.1
+- new package built with tito
+
 * Sat Jan 07 2017 Hubert Figuière <hub@figuiere.net> - 2.4.0-1
 - Update to version 2.4.0
 
